@@ -2,7 +2,7 @@ package com.ucsal;
 
 public class LamportClock {
 
-	public static int max(int a, int b) {
+    public static int max(int a, int b) {
         return Math.max(a, b);
     }
 
@@ -52,7 +52,7 @@ public class LamportClock {
             System.out.print(e.timestamp + " ");
         }
     }
-    
+
     public static void printMatrix(int[][] matrix, int e1, int e2) {
         System.out.print("\t");
         for (int j = 0; j < e2; j++) {

@@ -19,7 +19,7 @@ public class Main {
         messageMatrix[6][5] = 1;
 
         messageMatrix[7][3] = -1;
-        
+
         LamportClock.printMatrix(messageMatrix, p1.events.length, p2.events.length);
 
         LamportClock.compute(p1, p2, messageMatrix);
